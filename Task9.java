@@ -44,3 +44,20 @@
             }
             System.out.println(rev);
         }   */
+       // 6.)to add the sum of the digit from the given number .
+    /* 
+        static void sumofdigit(int a)
+        {
+            int sum=0;
+            while(a!=0)
+            {
+                sum=sum+a%10;
+                a/=10;
+            }
+            System.out.println(sum);
+        }
+    public static void main(String[] args) {
+        sumofdigit(2342);
+    }
+
+*/
